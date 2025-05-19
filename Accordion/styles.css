@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.section {
+  margin: 5px;
+  padding: 10px;
+}
+
+.title {
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-icon {
+  border: solid currentcolor;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  height: 8px;
+  pointer-events: none;
+  transform: translateY(-2px) rotate(45deg);
+  width: 8px;
+}
+
+.accordion-icon.open {
+  transform: rotate(-135deg); /* expanded state, looks like "v" */
+}
