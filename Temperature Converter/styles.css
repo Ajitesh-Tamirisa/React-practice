@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.inputContainer {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  text-align: center;
+  border: 1px solid gray;
+}
+
+label {
+  padding: 5px;
+}
+input {
+  padding: 5px;
+  text-align: center;
+  border: none;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
