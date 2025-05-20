@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+}
+
+.bar {
+  margin: 10px;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 15px;
+  height: 15px;
+}
+
+.fill {
+  background-color: blue;
+  height: 15px;
+  border-radius: 15px;
+  transition: width 0.3 ease;
+}
