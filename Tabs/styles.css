@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  background: none;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.open {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
